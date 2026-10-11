@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { navLinks } from "../../data/content";
 import { personalInfo } from "../../data/content";
 import { Menu, X, Sun, Moon, Eye, EyeOff } from "lucide-react";
-import { useTheme } from "../../context/ThemeProvider";
+import { useTheme } from "../../context/useTheme";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);

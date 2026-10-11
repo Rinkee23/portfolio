@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useReducedMotion, useSpring } from "motion/react";
-import { useTheme } from "../../context/ThemeProvider";
+import { useTheme } from "../../context/useTheme";
 
 export function CursorFollower() {
   const { reducedMotion } = useTheme();
