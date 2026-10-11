@@ -1,15 +1,19 @@
-import { personalInfo, socialLinks } from "../../data/content";
+import { personalInfo } from "../../data/content";
 import { contactContent } from "../../data/content";
-import { Github, LinkedIn, Mail, Heart } from "lucide-react";
+import { Mail, Heart } from "lucide-react";
+import { Github, LinkedIn } from "../ui/Icons";
+import type { ComponentType, SVGProps } from "react";
+import { useState } from "react";
 
-const iconByLabel: Record<string, typeof Github> = {
+const iconByLabel: Record<string, ComponentType<SVGProps<SVGSVGElement>>> = {
   GitHub: Github,
   LinkedIn: LinkedIn,
   Email: Mail,
 };
 
 export function Footer() {
-  const year = new Date().getFullYear();
+  // Compute the year once to avoid calling `Date` during every render.
+  const [year] = useState(() => new Date().getFullYear());
 
   return (
     <footer className="border-t border-border bg-bg/60">

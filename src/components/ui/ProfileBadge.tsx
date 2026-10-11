@@ -7,7 +7,7 @@ const platformMeta: Record<string, { icon: string; color: string }> = {
   LinkedIn: { icon: "in", color: "bg-blue-600/90 text-white" },
   LeetCode: { icon: "LC", color: "bg-orange-500/90 text-white" },
   Codeforces: { icon: "CF", color: "bg-indigo-500/90 text-white" },
-  Stack Overflow: { icon: "SO", color: "bg-orange-600/90 text-white" },
+  "Stack Overflow": { icon: "SO", color: "bg-orange-600/90 text-white" },
   X: { icon: "X", color: "bg-black/80 text-white" },
   Twitter: { icon: "X", color: "bg-black/80 text-white" },
 };

@@ -1,15 +1,16 @@
-import { motion, type Variants } from "motion/react";
-import type { ComponentProps, ReactNode } from "react";
+import { motion, type HTMLMotionProps, type Variants } from "motion/react";
+import type { ReactNode } from "react";
 
 type Variant = "primary" | "ghost" | "outline" | "link";
 type Size = "sm" | "md" | "lg";
 
-interface ButtonProps extends Omit<ComponentProps<"button">, "onDrag" | "onDragStart" | "onDragEnd"> {
+interface ButtonProps extends Omit<HTMLMotionProps<"button">, "onDrag" | "onDragStart" | "onDragEnd" | "children"> {
   variant?: Variant;
   size?: Size;
   leftIcon?: ReactNode;
   rightIcon?: ReactNode;
   loading?: boolean;
+  children?: ReactNode;
 }
 
 const variants: Record<Variant, string> = {

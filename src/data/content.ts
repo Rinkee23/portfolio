@@ -27,6 +27,35 @@ export const socialLinks = {
   twitter: "",
 };
 
+import type { CodingProfile } from "./types";
+
+export const codingProfiles: CodingProfile[] = [
+  {
+    platform: "GitHub",
+    handle: "rinkee-kushwaha",
+    url: "https://github.com/rinkee-kushwaha",
+    stat: "120+ stars",
+  },
+  {
+    platform: "LinkedIn",
+    handle: "rinkee-kushwaha",
+    url: "https://linkedin.com/in/rinkee-kushwaha",
+    stat: "500+ connections",
+  },
+  {
+    platform: "LeetCode",
+    handle: "rinkee-kushwaha",
+    url: "https://leetcode.com/rinkee-kushwaha",
+    stat: "300+ solved",
+  },
+  {
+    platform: "Stack Overflow",
+    handle: "rinkee-kushwaha",
+    url: "https://stackoverflow.com/users/1234567/rinkee-kushwaha",
+    stat: "280+ reputation",
+  },
+];
+
 export const heroContent = {
   headline: "Building digital experiences\nthat move ideas forward.",
   subhead:
