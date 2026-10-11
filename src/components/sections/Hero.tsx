@@ -28,7 +28,7 @@ export function Hero() {
         <div className="absolute bottom-0 right-0 h-[360px] w-[360px] rounded-full bg-accent-2/10 blur-[100px]" />
         <motion.img
           variants={floatSlow}
-          src="/rinkee2.png"
+          src="/rinkee.png"
           alt="Rinkee Kushwaha"
           className="absolute top-32 right-[15%] hidden h-60 w-60 rounded-2xl object-cover border border-border bg-card/40 backdrop-blur-md lg:block"
         />
@@ -130,7 +130,7 @@ export function Hero() {
               transition={{ duration: 8, ease: "easeInOut", repeat: Infinity, delay: 1 }}
             />
             <motion.img
-              src="/rinkee2.png"
+              src="/rinkee.png"
               alt="Rinkee Kushwaha"
               className="relative z-10 mx-auto h-[380px] w-[380px] sm:h-[420px] sm:w-[420px] max-w-full rounded-[2rem] object-cover border border-border shadow-[0_40px_120px_-40px_rgba(139,92,246,0.8)]"
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
@@ -163,5 +163,6 @@ export function Hero() {
 }
 
 export default Hero;
+
 
 
