@@ -1,11 +1,12 @@
-export const personalInfo = {
+﻿export const personalInfo = {
   name: "Rinkee Kushwaha",
   role: "Software Engineer | React & Full-Stack Developer",
   tagline: "Engineering the web. Designing the experience.",
   introduction:
     "I turn complex ideas into thoughtful digital experiences, combining modern frontend engineering, reliable backend systems, and purposeful design.",
-  email: "hello@rinkee.dev",
-  resumeUrl: "/resume.pdf",
+  email: "kushwaharinkee22@gmail.com",
+  phone: "8303249051",
+  resumeUrl: "/Rinkee-Kushwaha-resume.pdf",
   location: "India",
   availability: "open", // "open" | "busy" | "unavailable"
   availabilityNote: "Open to select full-time and contract opportunities.",
@@ -21,9 +22,9 @@ export const navLinks = [
 ];
 
 export const socialLinks = {
-  github: "https://github.com/rinkee-kushwaha",
-  linkedin: "https://linkedin.com/in/rinkee-kushwaha",
-  email: "mailto:hello@rinkee.dev",
+  github: "https://github.com/Rinkee23",
+  linkedin: "https://www.linkedin.com/in/rinkee-kushwaha-bb8b1419b/",
+  email: "mailto:kushwaharinkee22@gmail.com",
   twitter: "",
 };
 
@@ -33,13 +34,13 @@ export const codingProfiles: CodingProfile[] = [
   {
     platform: "GitHub",
     handle: "rinkee-kushwaha",
-    url: "https://github.com/rinkee-kushwaha",
+    url: "https://github.com/Rinkee23",
     stat: "120+ stars",
   },
   {
     platform: "LinkedIn",
     handle: "rinkee-kushwaha",
-    url: "https://linkedin.com/in/rinkee-kushwaha",
+    url: "https://www.linkedin.com/in/rinkee-kushwaha-bb8b1419b/",
     stat: "500+ connections",
   },
   {
@@ -59,7 +60,7 @@ export const codingProfiles: CodingProfile[] = [
 export const heroContent = {
   headline: "Building digital experiences\nthat move ideas forward.",
   subhead:
-    "I design and engineer modern web applications — from intuitive interfaces to reliable backend systems.",
+    "I design and engineer modern web applications â€” from intuitive interfaces to reliable backend systems.",
   primaryCta: "Explore My Work",
   secondaryCta: "Download Resume",
   tertiaryCta: "Let's Connect",
@@ -95,9 +96,14 @@ export const contactContent = {
   subhead:
     "Let's build something useful, thoughtful, and technically excellent.",
   channels: [
-    { label: "Email", value: "hello@rinkee.dev", href: "mailto:hello@rinkee.dev" },
-    { label: "LinkedIn", value: "linkedin.com/in/rinkee-kushwaha", href: "https://linkedin.com/in/rinkee-kushwaha" },
-    { label: "GitHub", value: "github.com/rinkee-kushwaha", href: "https://github.com/rinkee-kushwaha" },
+    { label: "Email", value: "kushwaharinkee22@gmail.com", href: "mailto:kushwaharinkee22@gmail.com" },
+    { label: "LinkedIn", value: "linkedin.com/in/rinkee-kushwaha-bb8b1419b", href: "https://www.linkedin.com/in/rinkee-kushwaha-bb8b1419b/" },
+    { label: "GitHub", value: "github.com/Rinkee23", href: "https://github.com/Rinkee23" },
   ],
   resumeLabel: "Download Resume (PDF)",
 };
+
+
+
+
+
