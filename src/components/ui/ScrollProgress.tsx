@@ -10,8 +10,8 @@ export function ScrollProgress() {
     const onScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const scrollPercent = scrollTop / docHeight;
-      setProgress(scrollPercent);
+      const scrollPercent = docHeight > 0 ? scrollTop / docHeight : 0;
+      setProgress(Math.min(1, Math.max(0, scrollPercent)));
     };
 
     onScroll();

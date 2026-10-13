@@ -60,7 +60,7 @@ export const codingProfiles: CodingProfile[] = [
 export const heroContent = {
   headline: "Building digital experiences\nthat move ideas forward.",
   subhead:
-    "I design and engineer modern web applications â€” from intuitive interfaces to reliable backend systems.",
+    "I design and engineer modern web applications — from intuitive interfaces to reliable backend systems.",
   primaryCta: "Explore My Work",
   secondaryCta: "Download Resume",
   tertiaryCta: "Let's Connect",
