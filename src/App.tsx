@@ -33,7 +33,7 @@ function App() {
           <Contact />
           <section id="resume" className="section-shell" aria-labelledby="resume-heading">
             <div className="container-site">
-              <Suspense fallback={<div className="glass-card p-8 text-center text-text-muted">Loading resume...</div>}>
+              <Suspense fallback={<div className="glass-card p-8 text-center text-text-muted">Loading resume…</div>}>
                 <ResumePreview />
               </Suspense>
             </div>
