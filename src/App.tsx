@@ -35,6 +35,7 @@ function App() {
             <div className="container-site">
               <Suspense fallback={<div className="glass-card p-8 text-center text-text-muted">Loading resume…</div>}>
                 <ResumePreview />
+                
               </Suspense>
             </div>
           </section>
